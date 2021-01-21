@@ -1,0 +1,21 @@
+{
+    "input": "./data/el_libro_del_pueblo_de_dios.csv",
+    "output": "./data/bible.png",
+    "mask": "./data/cross.png",
+    "dimensions": ["text"],
+    "filters": [
+    ],
+    "additional_stopwords": [],
+    "image_coloring": false,
+    "normalize_plurals": true,
+    "remove_stopwords": false,
+    "include_numbers": false,
+    "collocations": true,
+    "background_color": "white",
+    "colormap": "autumn",
+    "min_word_length": 3,
+    "contour_width": 3,
+    "max_words": 1000,
+    "width": 600,
+    "height": 800
+}

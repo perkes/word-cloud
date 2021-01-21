@@ -1,0 +1,31 @@
+{
+    "input": "./data/chesapeake_mapped.csv",
+    "output": "./data/wordcloud.png",
+    "mask": "",
+    "dimensions": ["Job Title"],
+    "filters": [
+        {
+            "column": "AP Job Function",
+            "type": "match",
+            "value": "Other"
+        },
+        {
+            "column": "Country",
+            "type": "match",
+            "value": "United States"
+        }
+    ],
+    "additional_stopwords": [],
+    "image_coloring": false,
+    "normalize_plurals": true,
+    "remove_stopwords": false,
+    "include_numbers": false,
+    "collocations": true,
+    "background_color": "white",
+    "colormap": "rainbow",
+    "min_word_length": 3,
+    "contour_width": 3,
+    "max_words": 1000,
+    "width": 1000,
+    "height": 800
+}
