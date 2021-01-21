@@ -78,4 +78,4 @@ python word_cloud.py --config ./config.json
 
 ## Authors
 
-* **Jonathan Perkes** - jperkes@alixpartners.com
+* **Jonathan Perkes** - [LinkedIn](https://www.linkedin.com/in/jonathan-perkes/)
